@@ -17,7 +17,7 @@ const getInitialValues = () => ({
 
     const handleSubmit = () => {
         console.log(value.actual);
-        console.log("Submission is done successfully !!!");
+        console.log("Submission is done !!!");
         setValue({
             actual : 25,
             block : true
