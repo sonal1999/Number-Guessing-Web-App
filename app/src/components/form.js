@@ -8,21 +8,11 @@ const Form = ({getInputValue}) => {
         e.preventDefault();
         const guess = e.target.elements.guess.value;
 
-<<<<<<< HEAD
         console.log(guess);
       //  e.target.elements.guess.value = ''; // Clear input field after submit
         console.log("Submission is done !!!");
         
         getInputValue(guess);
-=======
-    const handleSubmit = () => {
-        console.log(value.actual);
-        console.log("Submission is done !!!");
-        setValue({
-            actual : 25,
-            block : true
-        })
->>>>>>> 3fe249b63651bb8df8f521edba4948335a4fa6b7
     }
 
 

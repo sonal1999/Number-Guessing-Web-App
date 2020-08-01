@@ -3,7 +3,7 @@ const generateRandomNumber = Math.floor((Math.random()*100)+1)
 export const getInitialValues = () => ({
     actual : generateRandomNumber,
     msg : 'You are close to ...',
-    color : ''
+    color : '',
 })
 
 export const getMessage = (difference) => {

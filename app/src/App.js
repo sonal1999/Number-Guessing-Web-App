@@ -20,13 +20,13 @@ function App() {
     })
 
   }
-
-  return (
-    <div>
-    <Result msg={initialValues.msg} color ={initialValues.color}></Result>
-       <Form getInputValue = {value => updateState(value) }></Form>
-    </div>
-  );
+ 
+    return (
+      <div>
+         <Result msg={initialValues.msg} color ={initialValues.color}></Result>
+         <Form getInputValue = {value => updateState(value) }></Form>  
+      </div>
+     );  
 }
 
 export default App;
